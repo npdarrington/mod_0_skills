@@ -1,0 +1,15 @@
+var food = "Spaghetti";
+var is_delicious = true;
+
+food = "Asparagus";
+
+var num2 = 4;
+var num7 = 20;
+
+var quotient = num7 / num2
+
+var songs = ["Your Love", "Love of Tired Swans", "Love is Like A Dream"];
+
+songs.shift() // remove first element of array
+
+console.log(food.length); // num of characters in food
