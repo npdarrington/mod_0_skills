@@ -1,0 +1,17 @@
+Class TableOrder
+
+attributes:
+tableNumber (number)
+dishAvgPrice (number)
+numberOfCustomers (number)
+amountPaid (number)
+server (string)
+alcohol (boolean)
+orderTime (datetime)
+timeToServe (datetime)
+
+methods:
+customerWaitTime = (timeToServe - orderTime)
+calculateBalance = (numberOfCustomers * dishAvgPrice)
+alcoholOrdered = (alcohol = false)
+totalPayment = (amountPaid - calculateBalance)
