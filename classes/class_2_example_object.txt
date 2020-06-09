@@ -1,0 +1,13 @@
+Eggs, Bacon & Hash
+
+attributes:
+name: "Eggs, Bacon & Hash"
+timesOrderedToday: 32
+orderedWithSpecial: true
+timesOrderedWithSpecialToday: 17
+
+methods:
+dishName: "Our Famous Eggs, Bacon & Hash"
+dishPopularity: (timesOrderedToday > 25)
+wasItASpecial: orderedWithSpecial = true
+dishSpecialPopularity: (timesOrderedToday - timesOrderedWithSpecialToday)
