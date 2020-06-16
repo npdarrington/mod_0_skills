@@ -11,7 +11,7 @@ orderTime = "06-09-2020 4:30PM"
 timeToServe = "06-09-2020" 4:44PM"
 
 methods:
-customerWaitTime: 4:44PM - 4:30PM = 14
-calculateBalance: 15 * 4 = 60
-alcoholOrdered: alcohol = false
-totalPayment: 60 - 60 = 0
+tableOrderToServeTime: 4:44PM - 4:30PM = 14
+calculateTableBalance: 15 * 4 = 60
+wasAlcoholOrdered: alcohol = false
+tableAmountPaid: 60 - 60 = 0

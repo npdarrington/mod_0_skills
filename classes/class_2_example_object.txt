@@ -7,7 +7,7 @@ orderedWithSpecial: true
 timesOrderedWithSpecialToday: 17
 
 methods:
-dishName: "Our Famous Eggs, Bacon & Hash"
-dishPopularity: (timesOrderedToday > 25)
-wasItASpecial: orderedWithSpecial = true
-dishSpecialPopularity: (timesOrderedToday - timesOrderedWithSpecialToday)
+changeDishName: "Our Famous Eggs, Bacon & Hash"
+addDishPopularity: (timesOrderedToday > 25)
+specialOrdered: orderedWithSpecial = true
+calculateSpecialPopularity: (timesOrderedToday - timesOrderedWithSpecialToday)

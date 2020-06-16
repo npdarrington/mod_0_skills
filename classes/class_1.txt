@@ -11,7 +11,7 @@ orderTime (datetime)
 timeToServe (datetime)
 
 methods:
-customerWaitTime = (timeToServe - orderTime)
-calculateBalance = (numberOfCustomers * dishAvgPrice)
-alcoholOrdered = (alcohol = false)
-totalPayment = (amountPaid - calculateBalance)
+tableOrderToServeTime = (timeToServe - orderTime)
+calculateTableBalance = (numberOfCustomers * dishAvgPrice)
+wasAlcoholOrdered = (alcohol = false)
+tableAmountPaid = (amountPaid - calculateBalance)

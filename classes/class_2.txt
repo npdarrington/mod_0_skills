@@ -7,7 +7,7 @@ orderedWithSpecial (boolean)
 timesOrderedWithSpecialToday (number)
 
 methods:
-dishName (change name)
-dishPopularity (timesOrderedToday++)
-wasItASpecial (true)
-dishSpecialPopularity (timesOrderedWithSpecialToday++)
+changeDishName (change name)
+addDishPopularity (timesOrderedToday++)
+specialOrdered (true)
+calculateSpecialPopularity (timesOrderedWithSpecialToday++)
